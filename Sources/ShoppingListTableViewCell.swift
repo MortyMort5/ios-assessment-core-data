@@ -27,6 +27,8 @@ class ShoppingListTableViewCell: UITableViewCell {
     func updateViews() {
         guard let shoppingList = shoppingList else { return }
         
+        nameTextField.text = shoppingList.name
+        
         let image = shoppingList.purchased ? #imageLiteral(resourceName: "complete") : #imageLiteral(resourceName: "incomplete")
         checkBoxButton.setImage(image, for: .normal)
         
