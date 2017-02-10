@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		813366201E4E1BDE00AECC2A /* ShoppingList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8133661E1E4E1BDE00AECC2A /* ShoppingList.xcdatamodeld */; };
+		813366221E4E1C5900AECC2A /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813366211E4E1C5900AECC2A /* Stack.swift */; };
+		813366241E4E1C8900AECC2A /* ShoppingList+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813366231E4E1C8900AECC2A /* ShoppingList+Convenience.swift */; };
+		813366261E4E1D2700AECC2A /* ShoppingListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813366251E4E1D2700AECC2A /* ShoppingListController.swift */; };
+		813366281E4E1F9100AECC2A /* ShoppingListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813366271E4E1F9100AECC2A /* ShoppingListTableViewController.swift */; };
+		8133662A1E4E1FB400AECC2A /* ShoppingListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813366291E4E1FB400AECC2A /* ShoppingListTableViewCell.swift */; };
 		9DF1383F1E4CDE8C00AF0400 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DF138371E4CDE8C00AF0400 /* Assets.xcassets */; };
 		9DF138401E4CDE8C00AF0400 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DF138381E4CDE8C00AF0400 /* LaunchScreen.storyboard */; };
 		9DF138411E4CDE8C00AF0400 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DF1383A1E4CDE8C00AF0400 /* Main.storyboard */; };
@@ -15,6 +21,12 @@
 
 /* Begin PBXFileReference section */
 		1A4A23191CCA8D2C003A4350 /* ShoppingList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8133661F1E4E1BDE00AECC2A /* ShoppingList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ShoppingList.xcdatamodel; sourceTree = "<group>"; };
+		813366211E4E1C5900AECC2A /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		813366231E4E1C8900AECC2A /* ShoppingList+Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ShoppingList+Convenience.swift"; sourceTree = "<group>"; };
+		813366251E4E1D2700AECC2A /* ShoppingListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingListController.swift; sourceTree = "<group>"; };
+		813366271E4E1F9100AECC2A /* ShoppingListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingListTableViewController.swift; sourceTree = "<group>"; };
+		813366291E4E1FB400AECC2A /* ShoppingListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingListTableViewCell.swift; sourceTree = "<group>"; };
 		9DF138371E4CDE8C00AF0400 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DF138391E4CDE8C00AF0400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DF1383B1E4CDE8C00AF0400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -64,10 +76,10 @@
 			isa = PBXGroup;
 			children = (
 				9DF1383E1E4CDE8C00AF0400 /* AppDelegate.swift */,
-				9DF138451E4CDEA500AF0400 /* Model */,
-				9DF138491E4CDEB800AF0400 /* Model Controllers */,
-				9DF138471E4CDEAC00AF0400 /* View Controllers */,
 				9DF138481E4CDEB800AF0400 /* Views */,
+				9DF138471E4CDEAC00AF0400 /* View Controllers */,
+				9DF138491E4CDEB800AF0400 /* Model Controllers */,
+				9DF138451E4CDEA500AF0400 /* Model */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -76,7 +88,6 @@
 			isa = PBXGroup;
 			children = (
 				9DF138381E4CDE8C00AF0400 /* LaunchScreen.storyboard */,
-				9DF1383A1E4CDE8C00AF0400 /* Main.storyboard */,
 			);
 			name = Storyboardfs;
 			sourceTree = "<group>";
@@ -84,6 +95,9 @@
 		9DF138451E4CDEA500AF0400 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8133661E1E4E1BDE00AECC2A /* ShoppingList.xcdatamodeld */,
+				813366211E4E1C5900AECC2A /* Stack.swift */,
+				813366231E4E1C8900AECC2A /* ShoppingList+Convenience.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -91,6 +105,8 @@
 		9DF138471E4CDEAC00AF0400 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				9DF1383A1E4CDE8C00AF0400 /* Main.storyboard */,
+				813366271E4E1F9100AECC2A /* ShoppingListTableViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -98,6 +114,7 @@
 		9DF138481E4CDEB800AF0400 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				813366291E4E1FB400AECC2A /* ShoppingListTableViewCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -105,6 +122,7 @@
 		9DF138491E4CDEB800AF0400 /* Model Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				813366251E4E1D2700AECC2A /* ShoppingListController.swift */,
 			);
 			name = "Model Controllers";
 			sourceTree = "<group>";
@@ -182,6 +200,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DF138431E4CDE8C00AF0400 /* AppDelegate.swift in Sources */,
+				813366241E4E1C8900AECC2A /* ShoppingList+Convenience.swift in Sources */,
+				813366221E4E1C5900AECC2A /* Stack.swift in Sources */,
+				8133662A1E4E1FB400AECC2A /* ShoppingListTableViewCell.swift in Sources */,
+				813366201E4E1BDE00AECC2A /* ShoppingList.xcdatamodeld in Sources */,
+				813366261E4E1D2700AECC2A /* ShoppingListController.swift in Sources */,
+				813366281E4E1F9100AECC2A /* ShoppingListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +226,7 @@
 				9DF1383B1E4CDE8C00AF0400 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -341,6 +366,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8133661E1E4E1BDE00AECC2A /* ShoppingList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8133661F1E4E1BDE00AECC2A /* ShoppingList.xcdatamodel */,
+			);
+			currentVersion = 8133661F1E4E1BDE00AECC2A /* ShoppingList.xcdatamodel */;
+			path = ShoppingList.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 1A4A23111CCA8D2C003A4350 /* Project object */;
 }
